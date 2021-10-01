@@ -1,5 +1,5 @@
-var barra = document.querySelector(".barra");
+let barra = document.querySelector(".barra");
 
 barra.addEventListener("click" , function(){
-    document.querySelector(".sidebar").classList.toggle("show-menu");
+    document.querySelector(".container").classList.toggle("show-menu");
 });

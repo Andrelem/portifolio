@@ -147,18 +147,18 @@
         <div class="contato-wrapper">
           <div class="contato">
             <h1>Entre em Contato</h1>
-              <form>
+              <form action="email.php">
                 <div class="input">
-                  <label for="nome" class="field-label">Nome</label>
-                  <input type="text" class="field" id="nome">                       
+                  <label for="nome" class="field-label" >Nome</label>
+                  <input type="text" class="field" id="nome" name="nome">                       
                     </div>
                     <div class="input">
-                      <label for="email" class="field-label">Email</label>
-                      <input type="email" class="field" id="email">      
+                      <label for="email" class="field-label" >Email</label>
+                      <input type="email" class="field" id="email" name="email" >      
                     </div>
                     <div class="input">
                       <label for="mensagem" class="field-label">Mensagem</label>
-                      <textarea class="field" id="mensagem"></textarea>
+                      <textarea class="field" id="mensagem" name="mensagem"></textarea>
                     </div>
                   <button type="submit" class="btn btn-submit">Enviar</button>
               </form>
